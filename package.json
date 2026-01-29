@@ -1,0 +1,44 @@
+{
+  "name": "pipe-and-caret",
+  "version": "1.0.0",
+  "description": "Anonymous, client-side HL7 v2 message editor with parsing, spreadsheet-style editing, tree view, and round-trip serialization",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djglxxii/PipeAndCaret.git"
+  },
+  "keywords": ["hl7", "healthcare", "message-editor", "parser"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djglxxii/PipeAndCaret/issues"
+  },
+  "homepage": "https://github.com/djglxxii/PipeAndCaret#readme",
+  "dependencies": {
+    "@mantine/core": "^7.17.2",
+    "@mantine/hooks": "^7.17.2",
+    "ag-grid-community": "^33.2.5",
+    "ag-grid-react": "^33.2.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zustand": "^5.0.5"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.5.0",
+    "jsdom": "^26.1.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.1.4"
+  }
+}
